@@ -10,5 +10,4 @@ class MapService {
     fun getMap(buildingNo: Int, floorLevel: Int) =
         File("${Constants.PathToImages}/$buildingNo/$floorLevel").readBytes()
 
-
 }
